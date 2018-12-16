@@ -1,0 +1,105 @@
+:root{
+	font-size: 18px;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	
+    
+}
+body{background-color: rgb(245,238,232);
+
+}
+.header{
+	background-image: url(download4.jpg);
+	background-size: contain;
+	
+	height: 20vmax;
+	color:blue;
+	margin: 2vw;
+}
+.heading
+{    
+	text-align: center;
+	font-size: 4rem;
+	padding:5vw 5vw 0 5vw;
+}
+.subheading{
+	text-align: center;
+	font-size: 2rem;
+	padding: 0 5vw 0 5vw ;
+}
+.row1{
+	margin: 3vw;
+	display: flex;
+
+}
+.about{
+	
+	font-size: 1.5rem;
+	margin:2vw;
+	text-align: justify;
+	line-height: 1.6;
+
+}
+img{
+	max-width: 100%;
+	height: auto;
+	
+}
+.myimg{
+
+
+
+}
+.techimg{
+
+}
+.row2{
+	margin:3vw; 
+	display:flex;
+}
+@media screen and (min-width: 500px) and (max-width: 770px)
+{
+	.heading{
+		font-size: 2.2rem;
+
+	}
+	.subheading{
+		font-size: 1rem;
+	}
+}
+@media screen and (max-width:500px){
+	.heading{
+		font-size: 2.5rem;
+	}
+	.subheading{
+		font-size: 1.2rem;
+	}
+	.about{
+		font-size: 1rem;
+	}
+	.row1{
+		flex-direction: column;
+	}
+	.myimg{
+		order: -1
+
+	}
+	img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%
+	}
+	.row2{
+		flex-direction: column;
+	}
+	
+
+	
+
+		
+	
+}
